@@ -1,0 +1,21 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "gcc build SDL2",
+            "command": "${workspaceFolder}\\build.cmd",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Task to build SDL2 using mingw64."
+        }
+    ],
+    "version": "2.0.0"
+}
